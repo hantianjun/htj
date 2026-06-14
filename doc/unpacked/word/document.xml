@@ -1,0 +1,2405 @@
+<?xml version="1.0" encoding="UTF-8"?><w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh w16du wp14">
+  <w:body>
+    <w:p w14:paraId="7E96E225" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+        </w:rPr>
+        <w:t>若依系统开发环境搭建手册</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7D6E9CCC" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="1"/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:sz w:val="30"/>
+          <w:szCs w:val="30"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="30"/>
+          <w:szCs w:val="30"/>
+        </w:rPr>
+        <w:t xml:space="preserve">1. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="30"/>
+          <w:szCs w:val="30"/>
+        </w:rPr>
+        <w:t>准备工作</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="17824BF4" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve">1.1 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>前置环境准备</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>——</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>安装Maven</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="7CA87D45" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="11"/>
+        <w:ind w:left="480" w:firstLineChars="0" w:firstLine="0"/>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>若依基于Maven管理项目的构建，需要先安装好相应的版本。</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="66DAB1A8" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve">1.2 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>开发工具</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6EDE61F4" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:ind w:firstLine="480"/>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>若依系统采用Eclipse作为开发工具。但不局限于Eclipse。此处仅介绍在Eclipse搭建开发环境所需的操作。</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="6460CB5E" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="1"/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:sz w:val="30"/>
+          <w:szCs w:val="30"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="30"/>
+          <w:szCs w:val="30"/>
+        </w:rPr>
+        <w:t xml:space="preserve">2. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="30"/>
+          <w:szCs w:val="30"/>
+        </w:rPr>
+        <w:t>开发环境搭建</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7066CD8E" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve">2.1 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>开发工具的配置</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="32E8BCD1" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">2.1.1 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>配置Maven</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="25A07E10" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>进入</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>Window-&gt;Preferences-&gt;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>Maven</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>-&gt;Install</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>ations页面，设置已经安装好的Maven</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="1910E104" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00932E60">
+      <w:pPr>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:pict w14:anchorId="51418528">
+          <v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+            <v:stroke joinstyle="miter"/>
+            <v:formulas>
+              <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+              <v:f eqn="sum @0 1 0"/>
+              <v:f eqn="sum 0 0 @1"/>
+              <v:f eqn="prod @2 1 2"/>
+              <v:f eqn="prod @3 21600 pixelWidth"/>
+              <v:f eqn="prod @3 21600 pixelHeight"/>
+              <v:f eqn="sum @0 0 1"/>
+              <v:f eqn="prod @6 1 2"/>
+              <v:f eqn="prod @7 21600 pixelWidth"/>
+              <v:f eqn="sum @8 21600 0"/>
+              <v:f eqn="prod @7 21600 pixelHeight"/>
+              <v:f eqn="sum @10 21600 0"/>
+            </v:formulas>
+            <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+            <o:lock v:ext="edit" aspectratio="t"/>
+          </v:shapetype>
+          <v:shape id="_x0000_i1025" type="#_x0000_t75" style="width:420.75pt;height:272.25pt">
+            <v:imagedata r:id="rId7" o:title=""/>
+          </v:shape>
+        </w:pict>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="37950895" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:t xml:space="preserve">2.1.2 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>配置Maven仓库路径</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="6B770375" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>进入</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>Window-&gt;Preferences-&gt;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>Maven</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>-&gt;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>User Settings页面，配置仓库路径</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="4FCC9CB5" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:pict w14:anchorId="599E397B">
+          <v:shape id="_x0000_i1026" type="#_x0000_t75" style="width:6in;height:305.25pt">
+            <v:imagedata r:id="rId8" o:title=""/>
+          </v:shape>
+        </w:pict>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="77A4B9AC" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>2.1.4</w:t>
+      </w:r>
+      <w:bookmarkStart w:id="0" w:name="_Toc311121657"/>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>关闭校验</w:t>
+      </w:r>
+      <w:bookmarkEnd w:id="0"/>
+    </w:p>
+    <w:p w14:paraId="0573E73C" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>进入</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>Window-&gt;Preferences-&gt;Validation</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>页面，勾选&#x201C;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>Suspend all validators</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>&#x201D;，关闭校验</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4A7AA411" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00932E60">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:lastRenderedPageBreak/>
+        <w:pict w14:anchorId="260FF761">
+          <v:shape id="_x0000_i1027" type="#_x0000_t75" style="width:6in;height:305.25pt">
+            <v:imagedata r:id="rId9" o:title=""/>
+          </v:shape>
+        </w:pict>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5DF4EDA6" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve">2.2 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>导入工程</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="184DF277" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>通过Eclipse导入工程，步骤如下：</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="015B8E0F" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:r>
+        <w:t>(1)</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>点击左侧项目区域</w:t>
+      </w:r>
+      <w:r>
+        <w:t>—&gt;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>Import</w:t>
+      </w:r>
+      <w:r>
+        <w:t>...</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="30658C39" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00932E60">
+      <w:r>
+        <w:lastRenderedPageBreak/>
+        <w:pict w14:anchorId="4D9219F5">
+          <v:shape id="_x0000_i1028" type="#_x0000_t75" style="width:387.75pt;height:409.5pt">
+            <v:imagedata r:id="rId10" o:title=""/>
+          </v:shape>
+        </w:pict>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="42C13815" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:r>
+        <w:t>(2)</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>选择RuoYi</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="099146A6" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:r>
+        <w:t xml:space="preserve">  </w:t>
+      <w:pict w14:anchorId="78FA9E0C">
+          <v:shape id="_x0000_i1029" type="#_x0000_t75" style="width:6in;height:153.75pt">
+            <v:imagedata r:id="rId11" o:title=""/>
+          </v:shape>
+        </w:pict></w:r>
+      
+    </w:p>
+    <w:p w14:paraId="25501557" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:r>
+        <w:t>(</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>3</w:t>
+      </w:r>
+      <w:r>
+        <w:t>)</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>点击</w:t>
+      </w:r>
+      <w:r>
+        <w:t>Finish</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0C4F6594" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="0057310B"/>
+    <w:p w14:paraId="5CF8905E" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:ind w:left="105" w:hangingChars="50" w:hanging="105"/>
+      </w:pPr>
+      <w:r>
+        <w:lastRenderedPageBreak/>
+        <w:t>(</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:t>)</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>RuoYi的代码就被导出到Eclipse中了，此时可以在工程视图中看到。</w:t>
+      </w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="46C7496E" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00932E60">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:pict w14:anchorId="418E2E97">
+          <v:shape id="_x0000_i1030" type="#_x0000_t75" style="width:200.25pt;height:182.25pt">
+            <v:imagedata r:id="rId12" o:title=""/>
+          </v:shape>
+        </w:pict>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6658CE49" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="1"/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:sz w:val="30"/>
+          <w:szCs w:val="30"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="30"/>
+          <w:szCs w:val="30"/>
+        </w:rPr>
+        <w:t xml:space="preserve">3. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="30"/>
+          <w:szCs w:val="30"/>
+        </w:rPr>
+        <w:t>运行若依系统</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="77EEB1BD" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve">3.1 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>必要的配置</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1B259D18" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">3.1.1 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>修改数据库连接</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0D0857E5" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>编辑</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>src/</w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>main</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>/</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>resources</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>目录下的</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">application-druid.yml </w:t>
+      </w:r>
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>文件，修改数据库地址账号信息。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1420AC2F" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>执行sql/</w:t>
+      </w:r>
+      
+      
+      
+      
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>ry_20180423.sql</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>，</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>quartz.sql</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> 两个文件 日期随版本变化</w:t>
+      </w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="447A3F32" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">3.1.2 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>开发环境配置</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="20D73CE1" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>编辑</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>src/</w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>main</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>/</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>resources</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>目录下的</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">application.yml </w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>文件，</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7C4743CC" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>默认端口为80</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="5500F4ED" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00932E60">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:pict w14:anchorId="069E36FE">
+          <v:shape id="_x0000_i1031" type="#_x0000_t75" style="width:168.75pt;height:72.75pt">
+            <v:imagedata r:id="rId13" o:title=""/>
+          </v:shape>
+        </w:pict>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="20C0FFD7" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">3.1.3 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>代码生成配置</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2723A97B" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>编辑</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>src/</w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>main</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>/</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>resources</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>目录下的</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">application.yml </w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>文件，</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1E29AD60" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00932E60">
+      <w:r>
+        <w:lastRenderedPageBreak/>
+        <w:pict w14:anchorId="7EB06378">
+          <v:shape id="_x0000_i1032" type="#_x0000_t75" style="width:311.25pt;height:118.5pt">
+            <v:imagedata r:id="rId14" o:title=""/>
+          </v:shape>
+        </w:pict>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3FECFF9C" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>默认为</w:t>
+      </w:r>
+      <w:r>
+        <w:t>module</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>，根据实际情况修改即可。</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>生成的表要有注释</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0216E54F" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="0057310B"/>
+    <w:p w14:paraId="4367AED0" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>注：如对模板有特殊需求，可自行修改。</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>编辑</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>src/</w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>main</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>/</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>resources</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>/</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>templates</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>/vm目录下</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="7BAA345B" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00932E60">
+      <w:r>
+        <w:pict w14:anchorId="4FE4F172">
+          <v:shape id="_x0000_i1033" type="#_x0000_t75" style="width:281.25pt;height:324.75pt">
+            <v:imagedata r:id="rId15" o:title=""/>
+          </v:shape>
+        </w:pict>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4BA79340" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="0057310B"/>
+    <w:p w14:paraId="76C8D264" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>3.1.4 日志配置</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="113C45DC" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>编辑</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>src/</w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>main</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>/</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>resources</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>目录下的</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">logback.yml </w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>文件</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5050C264" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="HTML"/>
+        <w:widowControl/>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Menlo" w:eastAsia="Menlo" w:hAnsi="Menlo" w:cs="Menlo" w:hint="default"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Menlo" w:eastAsia="Menlo" w:hAnsi="Menlo" w:cs="Menlo" w:hint="default"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="EFEFEF"/>
+        </w:rPr>
+        <w:t>&lt;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Menlo" w:eastAsia="Menlo" w:hAnsi="Menlo" w:cs="Menlo" w:hint="default"/>
+          <w:b/>
+          <w:color w:val="000080"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="EFEFEF"/>
+        </w:rPr>
+        <w:t xml:space="preserve">property </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Menlo" w:eastAsia="Menlo" w:hAnsi="Menlo" w:cs="Menlo" w:hint="default"/>
+          <w:b/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="EFEFEF"/>
+        </w:rPr>
+        <w:t>name</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Menlo" w:eastAsia="Menlo" w:hAnsi="Menlo" w:cs="Menlo" w:hint="default"/>
+          <w:b/>
+          <w:color w:val="008000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="EFEFEF"/>
+        </w:rPr>
+        <w:t xml:space="preserve">=&quot;log.path&quot; </w:t>
+      </w:r>
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Menlo" w:eastAsia="Menlo" w:hAnsi="Menlo" w:cs="Menlo" w:hint="default"/>
+          <w:b/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="EFEFEF"/>
+        </w:rPr>
+        <w:t>value</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Menlo" w:eastAsia="Menlo" w:hAnsi="Menlo" w:cs="Menlo" w:hint="default"/>
+          <w:b/>
+          <w:color w:val="008000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="EFEFEF"/>
+        </w:rPr>
+        <w:t xml:space="preserve">=&quot;/home/ruoyi/logs&quot; </w:t>
+      </w:r>
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Menlo" w:eastAsia="Menlo" w:hAnsi="Menlo" w:cs="Menlo" w:hint="default"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="EFEFEF"/>
+        </w:rPr>
+        <w:t>/&gt;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="453E5C61" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>改为自己需要的路径</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="046ADE37" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="0057310B"/>
+    <w:p w14:paraId="12DBA9D1" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:t xml:space="preserve">3.2 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>启动及验证（后台）</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="100E757F" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>启动</w:t>
+      </w:r>
+      <w:r>
+        <w:t>RuoYiApplication</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>.java 出现如下图表示启动成功</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="15BE2FF4" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00932E60">
+      <w:r>
+        <w:pict w14:anchorId="1D0F9030">
+          <v:shape id="_x0000_i1034" type="#_x0000_t75" style="width:177.75pt;height:1in">
+            <v:imagedata r:id="rId16" o:title=""/>
+          </v:shape>
+        </w:pict>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3C425A90" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>打开浏览器，输入：</w:t>
+      </w:r>
+      <w:r>
+        <w:t>http://localhost:80</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>80</w:t>
+      </w:r>
+      <w:r>
+        <w:t>/captchaImage</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="5899259F" w14:textId="77777777" w:rsidR="0057310B" w:rsidRPr="00FE2F1C" w:rsidRDefault="00DC2090">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>若能正确显示返回信息，搭建后台成功。</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="06452067" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="0057310B">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="24F8C884" w14:textId="77777777" w:rsidR="00596FA2" w:rsidRPr="00596FA2" w:rsidRDefault="00FE2F1C" w:rsidP="00596FA2">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>3.</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>3</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>启动及验证（前台）</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="77313329" w14:textId="77777777" w:rsidR="00596FA2" w:rsidRPr="00596FA2" w:rsidRDefault="00596FA2" w:rsidP="00596FA2">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t># 进入项目目录</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="3584A97A" w14:textId="77777777" w:rsidR="00596FA2" w:rsidRPr="00596FA2" w:rsidRDefault="00596FA2" w:rsidP="00596FA2">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>cd ruoyi-ui</w:t>
+      </w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="3D667148" w14:textId="77777777" w:rsidR="00596FA2" w:rsidRPr="00596FA2" w:rsidRDefault="00596FA2" w:rsidP="00596FA2">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="1E14A755" w14:textId="01D7B68B" w:rsidR="00596FA2" w:rsidRPr="00596FA2" w:rsidRDefault="00932E60" w:rsidP="00596FA2">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>npm install --registry=https://registry.npmmirror.com</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="196428FF" w14:textId="77777777" w:rsidR="00596FA2" w:rsidRDefault="00596FA2" w:rsidP="00596FA2">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="32856C32" w14:textId="77777777" w:rsidR="00FE2F1C" w:rsidRDefault="00596FA2" w:rsidP="00596FA2">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>npm run dev</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="43947E6D" w14:textId="77777777" w:rsidR="00947A4F" w:rsidRDefault="00947A4F" w:rsidP="00596FA2">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="32C2E148" w14:textId="77777777" w:rsidR="00947A4F" w:rsidRDefault="00947A4F" w:rsidP="00947A4F">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>打开浏览器，输入：http://localhost:80 （默认账户 admin/admin123）</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="79495E25" w14:textId="77777777" w:rsidR="00947A4F" w:rsidRDefault="00947A4F" w:rsidP="00947A4F">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>若能正确展示登录页面，并能成功登录，菜单及页面展示正常，则表明环境搭建成功</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0EADAD3A" w14:textId="77777777" w:rsidR="00F41DCC" w:rsidRPr="00F41DCC" w:rsidRDefault="00F41DCC" w:rsidP="00947A4F">
+      <w:pPr>
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>注意：执行npm命令需要配置node环境</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="37DB403F" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="1"/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:sz w:val="30"/>
+          <w:szCs w:val="30"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="30"/>
+          <w:szCs w:val="30"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="30"/>
+          <w:szCs w:val="30"/>
+        </w:rPr>
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="30"/>
+          <w:szCs w:val="30"/>
+        </w:rPr>
+        <w:t>部署若依系统</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="713C70DF" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve">.1 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>war部署方式</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="36C31FDC" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">.1.1 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>修改pom.xml文件。将jar修改为war</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="76AA16B5" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00932E60">
+      <w:r>
+        <w:pict w14:anchorId="791B38E2">
+          <v:shape id="_x0000_i1035" type="#_x0000_t75" style="width:3in;height:69pt">
+            <v:imagedata r:id="rId17" o:title=""/>
+          </v:shape>
+        </w:pict>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="76360B25" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>如果是分模块需要</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>修改ruoyi-admin</w:t>
+      </w:r>
+      
+      
+      
+      
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="12569224" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00932E60">
+      <w:pPr>
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:lastRenderedPageBreak/>
+        <w:pict w14:anchorId="24621FD4">
+          <v:shape id="_x0000_i1036" type="#_x0000_t75" style="width:255.75pt;height:96pt">
+            <v:imagedata r:id="rId18" o:title=""/>
+          </v:shape>
+        </w:pict>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1E3120C2" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="0057310B">
+      <w:pPr>
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="5DC2765C" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">.1.2 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>在</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>spring-boot-starter</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>依赖中移除tomcat模块</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="084396FE" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00932E60">
+      <w:r>
+        <w:pict w14:anchorId="636BC6E1">
+          <v:shape id="_x0000_i1037" type="#_x0000_t75" style="width:414.75pt;height:160.5pt">
+            <v:imagedata r:id="rId19" o:title=""/>
+          </v:shape>
+        </w:pict>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="24045382" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>&lt;exclusions&gt;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="550475C5" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:tab/>
+        <w:t>&lt;exclusion&gt;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2726F4B6" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:tab/>
+      <w:tab/><w:t>&lt;artifactId&gt;spring-boot-starter-tomcat&lt;/artifactId&gt;</w:t></w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="1C86C469" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:tab/>
+      <w:tab/><w:t>&lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;</w:t></w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="79299EE6" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:tab/>
+        <w:t>&lt;/exclusion&gt;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4CC1C495" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>&lt;/exclusions&gt;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="409F58AD" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="0057310B">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="3C19C8CD" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">.1.3 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>部署到tomcat的webapps目录下面</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="44394627" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>默认为RuoYi.war</w:t>
+      </w:r>
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="64450C4D" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00932E60">
+      <w:r>
+        <w:lastRenderedPageBreak/>
+        <w:pict w14:anchorId="38B98ECA">
+          <v:shape id="_x0000_i1038" type="#_x0000_t75" style="width:366pt;height:142.5pt">
+            <v:imagedata r:id="rId20" o:title=""/>
+          </v:shape>
+        </w:pict>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="47F5C069" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>.1.</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>启动及验证</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="39E35F33" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>运行</w:t>
+      </w:r>
+      <w:r>
+        <w:t>startup.bat</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> 出现如下图即部署成功</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="62C8064F" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00932E60">
+      <w:pPr>
+        <w:widowControl/>
+        <w:jc w:val="left"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="宋体" w:hint="eastAsia"/>
+          <w:kern w:val="0"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:pict w14:anchorId="41A7A82F">
+          <v:shape id="_x0000_i1039" type="#_x0000_t75" style="width:6in;height:99pt">
+            <v:imagedata r:id="rId21" o:title=""/>
+          </v:shape>
+        </w:pict>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2EA6FC49" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve">.2 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>Jar方式部署</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="57295276" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">执行命令：java –jar RuoYi.jar </w:t>
+      </w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="674D5FD1" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>脚本执行：ry.sh start 启动stop 停止</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="1E61C4CC" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="0057310B">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="27C780DB" w14:textId="77777777" w:rsidR="00943D52" w:rsidRDefault="00943D52" w:rsidP="00943D52">
+      <w:pPr>
+        <w:pStyle w:val="af"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve">.2 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>前端部署</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2BA7149F" w14:textId="77777777" w:rsidR="00943D52" w:rsidRPr="00943D52" w:rsidRDefault="00943D52" w:rsidP="00943D52">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t># 打包正式环境</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="43CEE10B" w14:textId="77777777" w:rsidR="00943D52" w:rsidRPr="00943D52" w:rsidRDefault="00943D52" w:rsidP="00943D52">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>npm run build:prod</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="729C2F32" w14:textId="77777777" w:rsidR="00943D52" w:rsidRPr="00943D52" w:rsidRDefault="00943D52" w:rsidP="00943D52">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="6CCB86F3" w14:textId="77777777" w:rsidR="00943D52" w:rsidRPr="00943D52" w:rsidRDefault="00943D52" w:rsidP="00943D52">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t># 打包预发布环境</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="570506CC" w14:textId="77777777" w:rsidR="00943D52" w:rsidRDefault="00943D52" w:rsidP="00943D52">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      
+      <w:r>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>npm run build:stage</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="76E296F3" w14:textId="77777777" w:rsidR="00943D52" w:rsidRDefault="00943D52" w:rsidP="00943D52">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="6DC5D61F" w14:textId="77777777" w:rsidR="00943D52" w:rsidRDefault="00943D52" w:rsidP="00943D52">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>构建打包成功之后，会在根目录生成 dist 文件夹，里面就是构建打包好的文件，通常是 ***.js 、***.css、index.html 等静态文件。发布到你的 nginx 或者静态服务器即可，其中的 index.html 是后台服务的入口页面。</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="59B44830" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="0057310B">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="74424D0D" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>演示地址：ruoyi.vip</w:t>
+      </w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="2E92CFFA" w14:textId="77777777" w:rsidR="0057310B" w:rsidRDefault="00DC2090">
+      <w:pPr>
+        <w:rPr>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t>文档地址：doc.ruoyi.vip</w:t>
+      </w:r>
+      
+      
+      
+    </w:p>
+    <w:sectPr w:rsidR="0057310B">
+      <w:headerReference w:type="even" r:id="rId22"/>
+      <w:headerReference w:type="default" r:id="rId23"/>
+      <w:footerReference w:type="even" r:id="rId24"/>
+      <w:footerReference w:type="default" r:id="rId25"/>
+      <w:headerReference w:type="first" r:id="rId26"/>
+      <w:pgSz w:w="11906" w:h="16838"/>
+      <w:pgMar w:top="1440" w:right="1800" w:bottom="1440" w:left="1800" w:header="851" w:footer="992" w:gutter="0"/>
+      <w:cols w:space="425"/>
+      <w:docGrid w:type="lines" w:linePitch="312"/>
+    </w:sectPr>
+  </w:body>
+</w:document>

@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 import com.ruoyi.common.annotation.Log;
 import com.ruoyi.common.core.controller.BaseController;
 import com.ruoyi.common.core.domain.AjaxResult;
@@ -65,5 +66,24 @@ public class SysOperlogController extends BaseController
     {
         operLogService.cleanOperLog();
         return success();
+    }
+
+    @Log(title = "操作日志", businessType = BusinessType.IMPORT)
+    @PreAuthorize("@ss.hasPermi('monitor:operlog:import')")
+    @PostMapping("/importData")
+    public AjaxResult importData(MultipartFile file) throws Exception
+    {
+        ExcelUtil<SysOperLog> util = new ExcelUtil<SysOperLog>(SysOperLog.class);
+        List<SysOperLog> operLogList = util.importExcel(file.getInputStream());
+        String operName = getUsername();
+        String message = operLogService.importOperLog(operLogList, operName);
+        return success(message);
+    }
+
+    @PostMapping("/importTemplate")
+    public void importTemplate(HttpServletResponse response)
+    {
+        ExcelUtil<SysOperLog> util = new ExcelUtil<SysOperLog>(SysOperLog.class);
+        util.importTemplateExcel(response, "操作日志");
     }
 }

@@ -45,4 +45,13 @@ public interface ISysOperLogService
      * 清空操作日志
      */
     public void cleanOperLog();
+
+    /**
+     * 导入操作日志
+     *
+     * @param operLogList 操作日志列表
+     * @param operName 操作人
+     * @return 结果消息
+     */
+    public String importOperLog(List<SysOperLog> operLogList, String operName);
 }

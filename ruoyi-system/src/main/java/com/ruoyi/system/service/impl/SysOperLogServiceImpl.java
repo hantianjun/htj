@@ -73,4 +73,45 @@ public class SysOperLogServiceImpl implements ISysOperLogService
     {
         operLogMapper.cleanOperLog();
     }
+
+    /**
+     * 导入操作日志
+     *
+     * @param operLogList 操作日志列表
+     * @param operName 操作人
+     * @return 结果消息
+     */
+    @Override
+    public String importOperLog(List<SysOperLog> operLogList, String operName)
+    {
+        int successNum = 0;
+        int failureNum = 0;
+        StringBuilder successMsg = new StringBuilder();
+        StringBuilder failureMsg = new StringBuilder();
+        for (SysOperLog operLog : operLogList)
+        {
+            try
+            {
+                operLog.setOperName(operName);
+                this.insertOperlog(operLog);
+                successNum++;
+            }
+            catch (Exception e)
+            {
+                failureNum++;
+                String msg = "<br/>" + failureNum + "、日志 " + operLog.getTitle() + " 导入失败：" + e.getMessage();
+                failureMsg.append(msg);
+            }
+        }
+        if (failureNum > 0)
+        {
+            failureMsg.insert(0, "共成功导入 " + successNum + " 条，失败 " + failureNum + " 条，失败数据如下：");
+            return failureMsg.toString();
+        }
+        else
+        {
+            successMsg.insert(0, "恭喜您，数据已全部导入成功！共 " + successNum + " 条");
+            return successMsg.toString();
+        }
+    }
 }
